@@ -20,7 +20,7 @@ namespace FileTest
         private static void Start()
         {
             Console.WriteLine();
-            Console.WriteLine("A for FileInfo B for other");
+            Console.WriteLine("A for FileInfo B for EnumerateFiles. Q to exit");
             var key = Console.ReadKey(true);
             var s = new Stopwatch();
             s.Start();
